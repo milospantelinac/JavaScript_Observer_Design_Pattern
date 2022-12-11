@@ -4,7 +4,7 @@ Dizajn patern Observer je iz bihevioralne kategorije i nudi model pretplate (sub
 
 ## Upotreba Observer-a
 
-Prilikom izrade web aplikacije na kraju pišete mnogo **evenet handlers-a**. Event handleri su funkcije koje će biti obaveštene/pozvane kada se aktivira određeni event. Ova obaveštenja opcionalno primaju argument event s pojedinostima o event-u (na primer položaj x i y miša pri kliku).
+Prilikom izrade web aplikacije pisaćete mnogo **evenet handler-a**. Event handleri su funkcije koje će biti obaveštene/pozvane kada se aktivira određeni event. Ova obaveštenja opcionalno primaju argument event s pojedinostima o event-u (na primer položaj x i y miša pri kliku).
 
 Paradigma evenet handlers-a i event-a u JavaScriptu je manifestacija dizajn paterna Observer. Drugi naziv za patern Observer je **Pub/Sub**, skraćeno od **Publication/Subscription**.
 
