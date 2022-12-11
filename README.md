@@ -17,7 +17,7 @@ Paradigma evenet handlers-a i event-a u JavaScriptu je manifestacija dizajn pate
 Objekti koji učestvuju u ovom paternu su:
 
 Subject -- U primeru: Click
-1. Vodi lisu observers-a. Subjekt može da ima bilo koji broj Observer objekata.
+1. Vodi listu observers-a. Subjekt može da ima bilo koji broj Observer objekata.
 2. Implementira interfejs koji Observer objektima omogućuje pretplatu ili odjavu.
 3. Šalje obaveštenja svojim Observerima kada se njegovo stanje promeni.
 
