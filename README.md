@@ -2,9 +2,7 @@
 
 Dizajn patern Observer je iz bihevioralne kategorije i nudi model pretplate (subscription) u kojem se objekti pretplaćuju (subscribe) na event-e i dobijaju obaveštenja kada se desi event. Ovaj patern je kamen temeljac za programiranje event-a, uključujući JavaScript. Patern Observer olakšava dobar objektno orijentisani dizajn i potstiče loose coupling kod.
 
-## Upotreba Observer
-
-When building web apps you end up writing many event handlers. Event handlers are functions that will be notified when a certain event fires. These notifications optionally receive an event argument with details about the event (for example the x and y position of the mouse at a click event).
+## Upotreba Observer-a
 
 Prilikom izrade web aplikacije na kraju pišete mnogo **evenet handlers-a**. Event handleri su funkcije koje će biti obaveštene/pozvane kada se aktivira određeni event. Ova obaveštenja opcionalno primaju argument event s pojedinostima o event-u (na primer položaj x i y miša pri kliku).
 
